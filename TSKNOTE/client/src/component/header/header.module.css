@@ -1,0 +1,119 @@
+div.header_flex_container{
+    display: flex;
+    background-color: rgb(91, 97, 185);
+    box-shadow: 0px 15px 5px 0px rgba(129, 127, 108, 0.267);
+}
+
+
+div.header_flex_container_left_side{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 80%;
+    align-self: center;
+    vertical-align: middle;
+    display: flex;
+}
+
+div.header_flex_container_right_side{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 20%;
+    align-self: center;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+div.header_flex_container_left_side > div{
+    background-color: rgba(0, 0, 0, 0.724);
+    gap: 5%;
+    text-align: center;
+    margin-left: 2px;
+    border: 5px solid transparent;
+    align-items:center;
+    justify-content:center;
+    padding: 10px;
+    border-radius: 10px;
+    color: blanchedalmond;
+    cursor: pointer;
+}
+
+div.header_flex_container_left_side > div:hover{
+    color: rgb(35, 191, 186);
+}
+
+
+
+div.header_flex_container_right_side > div{
+    background-color: rgba(0, 0, 0, 0.724);
+    gap: 5%;
+    text-align: center;
+    margin-right: 2px;
+    border: 5px solid transparent;
+    align-items:center;
+    justify-content:center;
+    padding: 10px;
+    border-radius: 10px;
+    color: blanchedalmond;
+    cursor: pointer;
+}
+
+
+div.header_flex_container_right_side > div:hover{
+    color: rgb(35, 191, 186);
+}
+
+
+div.header_flex_container_left_side > div.Hremove:hover{
+    color: red;
+    background-color: rgb(86, 31, 31);
+    border: 1% solid rgba(241, 8, 241, 0.752);
+}
+
+div.header_flex_container_left_side > div.Hadd:hover{
+    color: rgb(21, 233, 17);
+    background-color: rgba(14, 229, 39, 0.442);
+    border: 1% solid rgb(4, 68, 6);
+}
+
+
+/* SECTION LOGIN / REGISTER / LOGOUT*/
+
+div.Hregister:hover{
+    border: 5px solid rgb(106, 95, 30);
+}
+
+div.Hlogin:hover{
+    border: 5px solid rgb(106, 95, 30);
+}
+
+div.Hlogout:hover{
+    border: 5px solid rgb(106, 95, 30);
+}
+
+
+
+/*media query*/
+
+@media screen and (max-width: 2000px) {
+    div.header_flex_container_left_side > div { font-size: 15px;width: 80px;}
+    div.header_flex_container_right_side > div {font-size: 15px;width: 80px;}
+
+  }
+
+  @media screen and (max-width: 700px) {
+    div.header_flex_container_left_side > div { font-size: 8px;width: 40px;}
+    div.header_flex_container_right_side > div {font-size: 8px;width: 40px;}
+
+  }
+
+
+/* SECTION MEDIA QUERY */
+/*
+320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV
+*/

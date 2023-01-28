@@ -1,0 +1,231 @@
+
+
+div.header_modal_container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: rgba(28, 28, 27, 0.6);
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+
+  }
+
+  /*----------------------------------------------------------------*/
+   /* SECTION : not avaible*/
+
+
+  div.modal_not_avaible{
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    display: flex;
+  }
+
+
+  tr.not_available > td{
+    font-size:30px;
+    color:rgba(172, 150, 144, 0.57);
+    background-color: rgba(88, 9, 9, 0.533);
+  }
+
+
+
+/*----------------------------------------------------------------*/
+/* SECTION : Hregister*/
+
+div.Hregister{
+  margin-top : 60px;
+  left: 50%;
+  height: 60%;
+  width: 40%;
+  border-radius: 40px;
+  background-color: rgba(3, 8, 15, 0.899);
+  color: rgba(245, 245, 245, 0.602);
+}
+
+
+tr.Hregister_titolo > td{
+  line-height: 50px;
+  font-size: 20px;
+  border-radius: 50px;
+  font-weight: bolder;
+  background-color: rgba(16, 95, 192, 0.399);
+  border: 5px solid black;
+}
+
+tr.Hregister_titolo > td.Hregister_close{
+  line-height: 50px;
+  font-size: 20px;
+  border-radius: 50px;
+  font-weight: bolder;
+  background-color: rgba(16, 95, 192, 0.399);
+  border: 5px solid black;
+  color: black;
+}
+
+tr.Hregister_titolo > td.Hregister_close:hover{
+  background-color: rgba(149, 10, 10, 0.399);
+  color: rgba(245, 245, 245, 0.602);
+}
+
+
+
+tr.Hregister_riga > td{
+  font-size: 20px;
+  font-weight: bolder;
+  line-height: 50px;
+}
+
+
+tr.Hregister > td{
+  font-size:20px;
+}
+
+input.h_input{
+  outline: none;
+  border-radius: 10px;
+  border : 3px solid rgba(245, 245, 245, 0.4);
+  background-color: transparent;
+  height: 30px;
+  font-size: 20px;
+  width: 100%;
+  color: white;
+}
+
+input.h_input:focus{
+  outline: none;
+  border-radius: 10px;
+  border : 3px solid rgba(245, 245, 245, 0.773);
+  background-color: rgba(16, 95, 192, 0.399);;
+}
+
+div.Hregister_submit_blocked{
+  height: 50px;
+  line-height: 50px;
+  width: 120px;
+  color: black;
+  font-size: 20px;
+  border: solid 5px black;
+  border-radius: 20px;
+  background-color: rgba(129, 154, 159, 0.418);
+}
+
+div.Hregister_submit{
+  height: 50px;
+  line-height: 50px;
+  width: 120px;
+  color: black;
+  font-size: 20px;
+  border: solid 5px black;
+  border-radius: 20px;
+  background-color: rgba(129, 154, 159, 0.418);
+}
+
+
+div.Hregister_submit:hover{
+
+  background-color: rgba(12, 190, 12, 0.418);
+  color: rgb(203, 203, 218);
+  font-weight: bolder;
+  border: solid 5px rgba(12, 190, 12, 0);
+}
+
+
+
+
+div.header_modal_container__login{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background: rgba(28, 28, 27, 0.6);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 30px;
+  color: antiquewhite;
+  z-index: 1000;
+}
+
+div.header_modal_container__login > div:nth-child(1)
+{
+  border-top-left-radius: 80px 80px;
+  border-top-right-radius: 80px 80px;
+}
+
+div.header_modal_container__login > div:last-child{
+  border-bottom-left-radius: 80px 80px;
+  border-bottom-right-radius: 80px 80px;
+}
+
+
+input.l_input{
+  outline: none;
+  border-radius: 10px;
+  border : 3px solid rgba(0, 0, 0, 0.4);
+  background-color: transparent;
+  height: 30px;
+  font-size: 20px;
+  width: 100%;
+  color: white;
+  width: 200px;
+}
+
+input.l_input:focus{
+  outline: none;
+  border-radius: 10px;
+  border : 3px solid rgba(221, 221, 221, 0.773);
+  background-color: rgb(91, 97, 185);
+}
+
+div.childLogin{
+  text-align: center;
+  background-color: rgb(66, 70, 130);
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5vw;
+
+}
+
+
+div.childLogin > div{
+  padding: 2%;
+  width: 20%;
+}
+
+div.childLogin > div:has(input){
+  padding: 2%;
+  width: 50%;
+}
+
+
+
+div.childLogin > div > input{
+  width: 100%;
+  height: 2vw;
+  font-size: 1.5vw;
+
+}
+
+span.login_font {
+  font-size: 1.5vw;
+}
+
+
+
+
+
+
+
+
+  
